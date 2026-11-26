@@ -14,10 +14,8 @@
 
 ### Install
 
-The package is not published to PyPI yet. Install it straight from GitHub:
-
 ```bash
-pip install "git+https://github.com/handlesapi/handlesapi-python.git"
+pip install handlesapi
 ```
 
 Requires Python 3.9 or newer. The only dependency is `httpx`.
