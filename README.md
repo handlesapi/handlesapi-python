@@ -1,3 +1,5 @@
+![Handles API Python SDK: a request and its JSON response](assets/readme-handlesapi-python.png)
+
 # handlesapi-python
 
 `handlesapi-python` is the Python client for [Handles API](https://handlesapi.com), a REST and MCP API that returns public data from X (Twitter), Instagram, TikTok, YouTube, Telegram, Bluesky, Twitch, Kick and LinkedIn companies in one consistent JSON shape. It wraps all 113 endpoints from the [OpenAPI spec](https://github.com/handlesapi/openapi) in typed methods, with a sync client and an async client, both built on `httpx`. Responses are typed with `TypedDict`, and the package ships `py.typed` (checked with `mypy --strict`).
@@ -55,6 +57,8 @@ asyncio.run(main())
 ```
 
 ## Endpoints
+
+![The Handles API reference page for an endpoint: request in curl, parameters and response](assets/screenshot-reference.png)
 
 Every endpoint has a method named after its `operationId` in snake_case. Path, query and body parameters are plain arguments (required ones first, the rest keyword-only), and `data` is a `TypedDict`.
 
