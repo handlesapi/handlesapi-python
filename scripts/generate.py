@@ -17,7 +17,7 @@ import urllib.request
 from pathlib import Path
 from typing import Any
 
-DEFAULT_SPEC = "https://raw.githubusercontent.com/handlesapi/openapi/main/openapi.json"
+DEFAULT_SPEC = "https://handlesapi.com/openapi.json"
 OUT = Path(__file__).resolve().parent.parent / "src" / "handlesapi"
 
 
